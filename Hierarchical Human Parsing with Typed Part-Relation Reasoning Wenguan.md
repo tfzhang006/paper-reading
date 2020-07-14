@@ -22,6 +22,8 @@ Exploiting the representation capacity of deep neural networks to model human hi
 	- Compositional: $F(h_u) = h_u \odot att_v([h_u])$. $att_v([h_u])$ is consistent for each sub-node of $v$, and is implemented by concatenation and convolution.
 	- Dependency: $F(h_u) = F^{cont}(h_u) \odot att_{u,v}(F^{cont}(h_u))$. $att_{u,v}(F^{cont}(h_u))$ is specific for each sibling of $u$, but is computed on all siblings(soft-max). $F^{cont}$ collects context from original image feature in a non-local manner.
 - Iterative inference.
+	- Message function.
+	- Node update function.
 ## Evaluation
 
 ## Conclusion
@@ -31,6 +33,6 @@ Exploiting the representation capacity of deep neural networks to model human hi
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4MzgyMzczLC0xMzQ2MzYwNzEwLC0yMT
-I1NDExNjU0XX0=
+eyJoaXN0b3J5IjpbMTE5NDIyNDUxNywtMTM0NjM2MDcxMCwtMj
+EyNTQxMTY1NF19
 -->
