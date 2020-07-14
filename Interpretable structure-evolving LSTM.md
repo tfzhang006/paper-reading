@@ -9,9 +9,11 @@ Taking advantage of structure-evolving LSTM to perform human parsing.
 ## Methods
 - Initial graph is constructed on super-pixels using SLIC. Node feature are computed by averaging convolutional feature of all pixels within a super-pixel.
 - Learning new graph structure and updating LSTM parameters are alternatively performed.
-- Structure-evolving LSTM
+-  LSTM update
 	- While computing gates, hidden states(t) and memory states(t) for a specific node, those input states(t), hidden states(t-1) of current node and *hidden states of neighboring nodes* have influence on them.
-	-  Additional merging probabilities of edges are predicted at the same time.
+	-  Additional merging probabilities of edges are predicted and supervised at the same time.
+- Structure evolving
+	- 
 ## Evaluation
 
 ## Conclusion
@@ -20,7 +22,7 @@ Taking advantage of structure-evolving LSTM to perform human parsing.
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjgzMzk5ODYsMjEzNzIwMjU0NywtND
-g1MjQzMjE4LC0xMTA1NTI1MzIyLDQyMDM0MzM2NiwtOTY4MzM5
-NDI5LDM1MDIxODA3MV19
+eyJoaXN0b3J5IjpbMTE1NjI0MDcwOSwtMTg2ODMzOTk4NiwyMT
+M3MjAyNTQ3LC00ODUyNDMyMTgsLTExMDU1MjUzMjIsNDIwMzQz
+MzY2LC05NjgzMzk0MjksMzUwMjE4MDcxXX0=
 -->
