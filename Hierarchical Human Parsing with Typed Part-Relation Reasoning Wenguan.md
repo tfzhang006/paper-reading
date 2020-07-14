@@ -33,9 +33,9 @@ Exploiting the representation capacity of deep neural networks to model human hi
 ## Notes
 - The hierarchy of human body is predefined and supervision is imposed on every layer, which is no flexible while processing other objects.
 - [Code](https://github.com/hlzhu09/Hierarchical-Human-Parsing)
-
+- CVPR 2020
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDY5NjA5OSw1MjkxMjk3NDQsLTEzND
+eyJoaXN0b3J5IjpbMTM2MTQxNDQ1Nyw1MjkxMjk3NDQsLTEzND
 YzNjA3MTAsLTIxMjU0MTE2NTRdfQ==
 -->
