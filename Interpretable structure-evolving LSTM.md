@@ -7,7 +7,7 @@ Taking advantage of structure-evolving LSTM to perform human parsing.
 - Existing LSTM models can only process data with pre-fixed structure.
 - Semantic object parsing can benefit from modeling the contextual dependencies among regions in different levels.
 ## Methods
-
+- Learning new graph structure and updating LST
 ## Evaluation
 
 ## Conclusion
@@ -16,6 +16,6 @@ Taking advantage of structure-evolving LSTM to perform human parsing.
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwMzQzMzY2LC05NjgzMzk0MjksMzUwMj
-E4MDcxXX0=
+eyJoaXN0b3J5IjpbLTE0MTIxMTkxMDgsNDIwMzQzMzY2LC05Nj
+gzMzk0MjksMzUwMjE4MDcxXX0=
 -->
