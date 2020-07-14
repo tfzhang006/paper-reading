@@ -1,6 +1,6 @@
 # Interpretable structure-evolving LSTM
 ## Summary
-
+A bottom-up method 
 ## Research Objective
 
 ## Background and Problems
@@ -15,5 +15,5 @@
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUwMjE4MDcxXX0=
+eyJoaXN0b3J5IjpbNzMwNjQyMDc4LDM1MDIxODA3MV19
 -->
