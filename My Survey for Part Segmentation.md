@@ -1,7 +1,8 @@
 # Part Segmentation
 
 ## Non Hierarchical Methods
-
+- Part-aware Context Network for Human Parsing
+- 
 
 ## Top-down Methods
 -  PartNet: A Recursive Part Decomposition Network for Fine-grained and Hierarchical Shape Segmentation
@@ -14,5 +15,5 @@
 ## Bottom-up Methods
 - Interpretable structure-evolving LSTM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTg2MjgzNSwtMjg5MTQ3MTMxXX0=
+eyJoaXN0b3J5IjpbLTMzNjYzMTAyMCwtMjg5MTQ3MTMxXX0=
 -->
