@@ -13,8 +13,8 @@ Taking advantage of structure-evolving LSTM to perform human parsing.
 	- While computing gates, hidden states(t) and memory states(t) for a specific node, those input states(t), hidden states(t-1) of current node and *hidden states of neighboring nodes* have influence on them.
 	-  Additional merging probabilities of edges are predicted and supervised at the same time.
 - Structure evolving
-	- A stochastic mechanism is adopted to find a good graph transition among large search space. The acceptance rate is defined to decide whether a random merge solution is reasonable.
-	- According to the definition of acceptance
+	- A stochastic mechanism is adopted to find a good graph transition among large search space. The acceptance rate is defined to decide whether a random solution is reasonable.
+	- According to the definition of acceptance rate, the model is more likely to accept a new graph structure that can bring more significant performance improvement and 
 ## Evaluation
 
 ## Conclusion
@@ -23,7 +23,8 @@ Taking advantage of structure-evolving LSTM to perform human parsing.
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NzQxOTc3LDExNTYyNDA3MDksLTE4Nj
-gzMzk5ODYsMjEzNzIwMjU0NywtNDg1MjQzMjE4LC0xMTA1NTI1
-MzIyLDQyMDM0MzM2NiwtOTY4MzM5NDI5LDM1MDIxODA3MV19
+eyJoaXN0b3J5IjpbLTE0MTM1MDMzNzMsMTE1NjI0MDcwOSwtMT
+g2ODMzOTk4NiwyMTM3MjAyNTQ3LC00ODUyNDMyMTgsLTExMDU1
+MjUzMjIsNDIwMzQzMzY2LC05NjgzMzk0MjksMzUwMjE4MDcxXX
+0=
 -->
