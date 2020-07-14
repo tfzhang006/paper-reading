@@ -1,4 +1,6 @@
-# Partnet: A recursive part decomposition network for fine-grained and hierarchical shape segmentation## Summary
+# Partnet: A recursive part decomposition network for fine-grained and hierarchical shape segmentation
+
+## Summary
 
 ## Research Objective
 
@@ -14,5 +16,5 @@
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjUzNzQwOF19
+eyJoaXN0b3J5IjpbLTE1NDQyOTI4NF19
 -->
