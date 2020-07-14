@@ -24,16 +24,18 @@ Exploiting the representation capacity of deep neural networks to model human hi
 - Iterative inference.
 	- Message function. Aggregating information from all edges which is directed to a node to form a message. 
 	- Node update function. Updating state of the node by fusing message and node embedding in last iteration through a convGRU module.
-- Readout.
+- Readout. Obtaining predictions of each layer by applying convolution and soft-max.
 ## Evaluation
-
+- LIP/PASCAL-Person-Part/ATR/PPSS/Fashion Clothing dataset
 ## Conclusion
-
+- Structure modeling is essential.
+- Exploring different kinds of relations is meaningful.
 ## Notes
-[Code](https://github.com/hlzhu09/Hierarchical-Human-Parsing)
+- The hierarchy of human body is predefined and supervision is imposed on every layer, which is no flexible while processing other objects.
+- [Code](https://github.com/hlzhu09/Hierarchical-Human-Parsing)
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5MTI5NzQ0LC0xMzQ2MzYwNzEwLC0yMT
-I1NDExNjU0XX0=
+eyJoaXN0b3J5IjpbMTkxMDY5NjA5OSw1MjkxMjk3NDQsLTEzND
+YzNjA3MTAsLTIxMjU0MTE2NTRdfQ==
 -->
