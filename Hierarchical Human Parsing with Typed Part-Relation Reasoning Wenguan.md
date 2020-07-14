@@ -18,9 +18,10 @@ Exploiting the representation capacity of deep neural networks to model human hi
 	- A general formulation: $h_{u,v} = R^r(F^r(h_u), h_v)$
 	- Relation network$R^r$: concatenation and convolution
 	- Feature adaption$F^r$ is specific for edge type.
-	- Decompositional: $F(h_u) = h_u \odot att_{u,v}(h_u)$.  $att_{u,v}$ is specific for each sub-node of $u$, but is depended on all sub-nodes.
+	- Decompositional: $F(h_u) = h_u \odot att_{u,v}(h_u)$.  $att_{u,v}$ is specific for each sub-node of $u$, but is depended on all sub-nodes(soft-max).
 	- Compositional: $F(h_u) = h_u \odot att_v([h_u])$. $att_v([h_u])$ is consistent for each sub-node of $v$, and is implemented by concatenation and convolution.
-	- Dependency
+	- Dependency: $F(h_u) = F^{cont}(h_u) \odot att_{u,v}(F^{cont}(h_u))$. $att_{u,v}(F^{cont}(h_u))$ is specific for each sibling of $u$, but is computed on all siblings(soft-max). $F^{cont}$ collects context from original image feature in a non-local manner.
+- Iterative inference.
 ## Evaluation
 
 ## Conclusion
@@ -30,6 +31,6 @@ Exploiting the representation capacity of deep neural networks to model human hi
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4MzM1NDQ2LC0xMzQ2MzYwNzEwLC0yMT
+eyJoaXN0b3J5IjpbNTY4MzgyMzczLC0xMzQ2MzYwNzEwLC0yMT
 I1NDExNjU0XX0=
 -->
