@@ -13,9 +13,10 @@ Exploiting the representation capacity of deep neural networks to model human hi
 ## Methods
 - Representing the human semantic structure as a directed, hierarchical graph(three levels). Accordingly, the gt maps are also organized in a hierarchical manner.
 - Node embedding(for node embedding$h_v$).
-- Part relation modeling(for edge embedding$h_$).
+- Part relation modeling(for edge embedding$h_{u,v}$).
 	- Decompositional/Compositional/Dependency relation
-	- Relation network: concatenation and convolution
+	- A general formulation: $h_{u,v} = R^r(F^r(h_u), h_v)$
+	- Relation network$R^r$: concatenation and convolution
 	- 
 ## Evaluation
 
@@ -26,5 +27,5 @@ Exploiting the representation capacity of deep neural networks to model human hi
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MzgyNjc5MywtMjEyNTQxMTY1NF19
+eyJoaXN0b3J5IjpbLTkwMjA4MDc2NCwtMjEyNTQxMTY1NF19
 -->
