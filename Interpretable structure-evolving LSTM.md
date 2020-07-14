@@ -18,14 +18,16 @@ Taking advantage of structure-evolving LSTM to perform human parsing.
 	- Input states, hidden states and memory states of merged nodes are averaged and used for further updating.
 - L2-norm loss for merging probability and cross entropy loss for segmentation.
 ## Evaluation
-PASCAL-Person-part/Horse-Cow/ATR
+PASCAL-Person-part/Horse-Cow/ATR dataset
 ## Conclusion
-
+- Using deterministic merging scheme is inferior to the stochastic policy.
+- 
 ## Notes
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwNzMwMDQ0LDExNTYyNDA3MDksLTE4Nj
-gzMzk5ODYsMjEzNzIwMjU0NywtNDg1MjQzMjE4LC0xMTA1NTI1
-MzIyLDQyMDM0MzM2NiwtOTY4MzM5NDI5LDM1MDIxODA3MV19
+eyJoaXN0b3J5IjpbLTU2MzA2MTAyMSwxMTU2MjQwNzA5LC0xOD
+Y4MzM5OTg2LDIxMzcyMDI1NDcsLTQ4NTI0MzIxOCwtMTEwNTUy
+NTMyMiw0MjAzNDMzNjYsLTk2ODMzOTQyOSwzNTAyMTgwNzFdfQ
+==
 -->
