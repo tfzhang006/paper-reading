@@ -19,7 +19,8 @@ Exploiting the representation capacity of deep neural networks to model human hi
 	- Relation network$R^r$: concatenation and convolution
 	- Feature adaption$F^r$ is specific for edge type.
 	- Decompositional: $F(h_u) = h_u \odot att_{u,v}(h_u)$.  $att_{u,v}$ is specific for each sub-node of $u$, but is depended on all sub-nodes.
-	- Compositional: $F()$
+	- Compositional: $F(h_u) = h_u \odot att_v([h_u])$. $att_v([h_u])$ is consistent for each sub-node of $v$, and is implemented by concatenation and convolution.
+	- Dependency
 ## Evaluation
 
 ## Conclusion
@@ -29,6 +30,6 @@ Exploiting the representation capacity of deep neural networks to model human hi
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjYzMjkzNCwtMTM0NjM2MDcxMCwtMj
-EyNTQxMTY1NF19
+eyJoaXN0b3J5IjpbODI4MzM1NDQ2LC0xMzQ2MzYwNzEwLC0yMT
+I1NDExNjU0XX0=
 -->
