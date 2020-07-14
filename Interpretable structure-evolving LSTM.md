@@ -21,13 +21,13 @@ Taking advantage of structure-evolving LSTM to perform human parsing.
 PASCAL-Person-part/Horse-Cow/ATR dataset
 ## Conclusion
 - Using deterministic merging scheme is inferior to the stochastic policy.
-- 
+- More levels of graph structure leads to better parsing results.
 ## Notes
-
+- CVPR 2017
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MzA2MTAyMSwxMTU2MjQwNzA5LC0xOD
-Y4MzM5OTg2LDIxMzcyMDI1NDcsLTQ4NTI0MzIxOCwtMTEwNTUy
-NTMyMiw0MjAzNDMzNjYsLTk2ODMzOTQyOSwzNTAyMTgwNzFdfQ
-==
+eyJoaXN0b3J5IjpbLTE1NTkyNTY5NjksLTU2MzA2MTAyMSwxMT
+U2MjQwNzA5LC0xODY4MzM5OTg2LDIxMzcyMDI1NDcsLTQ4NTI0
+MzIxOCwtMTEwNTUyNTMyMiw0MjAzNDMzNjYsLTk2ODMzOTQyOS
+wzNTAyMTgwNzFdfQ==
 -->
