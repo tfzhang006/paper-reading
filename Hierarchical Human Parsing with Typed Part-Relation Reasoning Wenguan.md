@@ -12,9 +12,10 @@ Exploiting the representation capacity of deep neural networks to model human hi
 - Immediate feed-forward prediction is sub-optimal.
 ## Methods
 - Representing the human semantic structure as a directed, hierarchical graph(three levels). Accordingly, the gt maps are also organized in a hierarchical manner.
-- Node embedding.
-- Part relation modeling.
+- Node embedding(for node embedding$h_v$).
+- Part relation modeling(for edge embedding$h_$).
 	- Decompositional/Compositional/Dependency relation
+	- Relation network: concatenation and convolution
 	- 
 ## Evaluation
 
@@ -25,6 +26,5 @@ Exploiting the representation capacity of deep neural networks to model human hi
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk1NDI5ODgsLTIxMjU0MTE2NTRdfQ
-==
+eyJoaXN0b3J5IjpbLTc2MzgyNjc5MywtMjEyNTQxMTY1NF19
 -->
