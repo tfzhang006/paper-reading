@@ -4,7 +4,8 @@ A bottom-up method is proposed to progressively obtain abstract representation i
 ## Research Objective
 Taking advantage of structure-evolving LSTM to perform human parsing.
 ## Background and Problems
-- Existing 
+- Existing LSTM models can only process data with pre-fixed structure.
+- Semantic object parsing can benefit from modeling the contextual dependencies among regions in different levels.
 ## Methods
 
 ## Evaluation
@@ -15,6 +16,6 @@ Taking advantage of structure-evolving LSTM to perform human parsing.
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzExOTE3NTksLTk2ODMzOTQyOSwzNT
-AyMTgwNzFdfQ==
+eyJoaXN0b3J5IjpbNDIwMzQzMzY2LC05NjgzMzk0MjksMzUwMj
+E4MDcxXX0=
 -->
