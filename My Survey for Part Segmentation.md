@@ -11,9 +11,10 @@
 - Progressive cognitive human parsing
 - Finer-Net: Cascaded Human Parsing with Hierarchical Granularity
 - Learning Semantic Neural Tree for Human Parsing
+- Learning compositional neural information fusion for human parsing
 
 ## Bottom-up Methods
 - Interpretable structure-evolving LSTM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjYzMTAyMCwtMjg5MTQ3MTMxXX0=
+eyJoaXN0b3J5IjpbLTExMzIxNDkzNjUsLTI4OTE0NzEzMV19
 -->
