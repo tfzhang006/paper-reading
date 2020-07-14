@@ -14,7 +14,7 @@ Taking advantage of structure-evolving LSTM to perform human parsing.
 	-  Additional merging probabilities of edges are predicted and supervised at the same time.
 - Structure evolving
 	- A stochastic mechanism is adopted to find a good graph transition among large search space. The acceptance rate is defined to decide whether a random solution is reasonable.
-	- According to the definition of acceptance rate, the model is more likely to accept a new graph structure that can bring more significant performance improvement and 
+	- According to the definition of acceptance rate, the model is more likely to accept a new graph structure that can bring more performance improvement and that has larger transition probability(multiplying all merging probabilities of eliminated ed.
 ## Evaluation
 
 ## Conclusion
@@ -23,7 +23,7 @@ Taking advantage of structure-evolving LSTM to perform human parsing.
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTM1MDMzNzMsMTE1NjI0MDcwOSwtMT
+eyJoaXN0b3J5IjpbLTIwMzYyMTI0MjksMTE1NjI0MDcwOSwtMT
 g2ODMzOTk4NiwyMTM3MjAyNTQ3LC00ODUyNDMyMTgsLTExMDU1
 MjUzMjIsNDIwMzQzMzY2LC05NjgzMzk0MjksMzUwMjE4MDcxXX
 0=
