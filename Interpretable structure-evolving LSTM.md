@@ -1,6 +1,6 @@
 # Interpretable structure-evolving LSTM
 ## Summary
-A bottom-up method 
+A bottom-up method is proposed to progressively obtain abstract representation in higher levels, which 
 ## Research Objective
 
 ## Background and Problems
@@ -15,5 +15,5 @@ A bottom-up method
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwNjQyMDc4LDM1MDIxODA3MV19
+eyJoaXN0b3J5IjpbLTk2ODMzOTQyOSwzNTAyMTgwNzFdfQ==
 -->
