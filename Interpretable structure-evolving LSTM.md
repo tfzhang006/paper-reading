@@ -7,7 +7,7 @@ Taking advantage of structure-evolving LSTM to perform human parsing.
 - Existing LSTM models can only process data with pre-fixed structure.
 - Semantic object parsing can benefit from modeling the contextual dependencies among regions in different levels.
 ## Methods
-- Initial graph is constructed on super-pixels using SLIC.
+- Initial graph is constructed on super-pixels using SLIC. Node feature are computed by averaging convolutional feature 
 - Learning new graph structure and updating LSTM parameters are alternatively performed.
 - 
 ## Evaluation
@@ -18,6 +18,6 @@ Taking advantage of structure-evolving LSTM to perform human parsing.
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDU1MjUzMjIsNDIwMzQzMzY2LC05Nj
-gzMzk0MjksMzUwMjE4MDcxXX0=
+eyJoaXN0b3J5IjpbLTUzNTM5NTE4NywtMTEwNTUyNTMyMiw0Mj
+AzNDMzNjYsLTk2ODMzOTQyOSwzNTAyMTgwNzFdfQ==
 -->
