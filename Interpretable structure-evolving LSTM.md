@@ -11,7 +11,7 @@ Taking advantage of structure-evolving LSTM to perform human parsing.
 - Learning new graph structure and updating LSTM parameters are alternatively performed.
 - Structure-evolving LSTM
 	- While computing gates, hidden states(t) and memory states(t) for a specific node, those input states(t), hidden states(t-1) of current node and *hidden states of neighboring nodes* have influence on them.
-	-  
+	-  Additional merging probabilities of edges are predicted at the same time.
 ## Evaluation
 
 ## Conclusion
@@ -20,7 +20,7 @@ Taking advantage of structure-evolving LSTM to perform human parsing.
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDc2NDc0NSwyMTM3MjAyNTQ3LC00OD
-UyNDMyMTgsLTExMDU1MjUzMjIsNDIwMzQzMzY2LC05NjgzMzk0
-MjksMzUwMjE4MDcxXX0=
+eyJoaXN0b3J5IjpbLTE4NjgzMzk5ODYsMjEzNzIwMjU0NywtND
+g1MjQzMjE4LC0xMTA1NTI1MzIyLDQyMDM0MzM2NiwtOTY4MzM5
+NDI5LDM1MDIxODA3MV19
 -->
