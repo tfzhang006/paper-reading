@@ -25,8 +25,8 @@ To recover 3D shape structures from single RGB images, where structure refers to
 - Applications includes structure-aware image editing and structure-assisted 3D volume refinement.
 ## Notes
 - This method fails to recover structures for object categories unseen from the training set.
-- This method 
+- This method recovers 3D cuboids only.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDI1NTI0M119
+eyJoaXN0b3J5IjpbLTEyOTU2MTU1MzZdfQ==
 -->
