@@ -20,12 +20,12 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 	- *Point-wise PointNet feature* together with current node feature is used to produce point-wise binary labels.
 - Overall loss function consists of average node classification loss and average node segmentation loss over all relevant nodes.
 ## Evaluation
-- FineSeg dataset.
+- FineSeg dataset. Part hierarchy for each shape is 
 ## Conclusion
 
 ## Notes
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODAzNzczOSwtMTU0NDI5Mjg0XX0=
+eyJoaXN0b3J5IjpbMjEwOTI5NDg2MiwtMTU0NDI5Mjg0XX0=
 -->
