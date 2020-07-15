@@ -11,9 +11,10 @@ To recover 3D shape structures from single RGB images, where structure refers to
 - Natural images always contain cluttered background and the imaged objects have large variations of appearance due to different textures and lighting conditions.
 ## Methods
 - Structure masking network
-	- This is a two
+	- This is a two-scale network, in which the feature maps and outputs of the first scale network are fed into various layers of the second scale one for refinement.
 - Structure recovery network
-	- Feature map of the last layer of structure masking network concatenated with CNN feature of the input image is feed into the network.
+	- Feature map of the last layer of structure masking network concatenated with CNN feature of the input image is fed into the network.
+	- The box structure decoder is a recursive neural network(RvNN), which includes a node classifier and three type node decoder for different node.
 ## Evaluation
 
 ## Conclusion
@@ -22,5 +23,5 @@ To recover 3D shape structures from single RGB images, where structure refers to
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODg2MTM1NF19
+eyJoaXN0b3J5IjpbLTEzOTA3NDg4MzldfQ==
 -->
