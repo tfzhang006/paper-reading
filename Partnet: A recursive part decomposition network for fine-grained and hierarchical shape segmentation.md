@@ -9,7 +9,7 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 - Labeling all primitives simultaneously cannot exploit the hierarchical nature.
 ## Methods
 - Node decoding module
-	- 
+	- 256D duplicated parent node feature is decoded into two 128D features for child 
 - Node classification module
 - Node segmentation module
 ## Evaluation
@@ -20,5 +20,5 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODM3NTczOSwtMTU0NDI5Mjg0XX0=
+eyJoaXN0b3J5IjpbMjA3MjM0MTE2LC0xNTQ0MjkyODRdfQ==
 -->
