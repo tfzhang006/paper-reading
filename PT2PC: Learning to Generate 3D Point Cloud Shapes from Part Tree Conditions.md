@@ -18,7 +18,7 @@ To generate a 3D point cloud geometry for a shape from a symbolic part tree repr
 - Part-tree conditioned **discriminator**
 	- Part point cloud discriminator
 		- Part point cloud encoder. 
-		- Tree-based feature encoder
+		- Tree-based feature encoder. In a bottom-up fashion, the features propagate from the leaf level 
 		- Scoring network
 	- Shape point cloud discriminator
 		- PointNet encoder
@@ -31,6 +31,6 @@ To generate a 3D point cloud geometry for a shape from a symbolic part tree repr
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjIyMTU2NzgsLTE4NjE4NDA3OSwyNT
-g1MTgxODUsMTkwMTM2OTA5NCwxMzc5NTU0MDU1XX0=
+eyJoaXN0b3J5IjpbLTkwMzAyMTYzLC0xODYxODQwNzksMjU4NT
+E4MTg1LDE5MDEzNjkwOTQsMTM3OTU1NDA1NV19
 -->
