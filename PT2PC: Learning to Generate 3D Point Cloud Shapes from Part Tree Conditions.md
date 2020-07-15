@@ -14,7 +14,7 @@ To generate a 3D point cloud geometry for a shape from a symbolic part tree repr
 - Part-tree conditioned **generator**
 	- Part-tree encoder. Taking node feature, semantic label and part instance identifier of all children as input, the encoder, which is implemented as a PointNet, computes node feature for current node. Leaf node features are initialized as zero.
 	- Part-tree feature decoder. Taking node feature, semantic label, part instance identifier and decoded feature from parent node as input, the decoder, which is implemented as a MLP, outputs *part feature*. Parent node feature is replaced as random noise.
-	- Part point cloud decoder. The point cloud decoder is designed to deform a fixed surface point cloud of a unit cube into target part point cloud based on its input. 
+	- Part point cloud decoder. The point cloud decoder is designed to deform a fixed surface point cloud of a unit cube into target part point cloud based on its input. Specifically, the input is a 1000-size point cloud in which each point's coordinate is concatenated with the part feature.
 - Part-tree conditioned **discriminator**
 - 
 ## Evaluation
@@ -25,6 +25,6 @@ To generate a 3D point cloud geometry for a shape from a symbolic part tree repr
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5Mzk4MzYyNywyNTg1MTgxODUsMTkwMT
-M2OTA5NCwxMzc5NTU0MDU1XX0=
+eyJoaXN0b3J5IjpbOTE3NDk4NDU3LDI1ODUxODE4NSwxOTAxMz
+Y5MDk0LDEzNzk1NTQwNTVdfQ==
 -->
