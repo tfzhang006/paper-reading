@@ -12,6 +12,7 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 	- 256D duplicated parent node feature is decoded into two 128D features for child nodes, which is called *recursive context feature*.
 	- It is implemented with a two-layer fully connected network with tanh.
 - Node classification module
+	- Taking the *current node feature* which is formed by concatenation of  as input, this module predicts its node type as one of the following three ones: adjacency, symmetry or leaf.
 	- 
 - Node segmentation module
 ## Evaluation
@@ -22,5 +23,5 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTU2ODU2MTIsLTE1NDQyOTI4NF19
+eyJoaXN0b3J5IjpbLTE5MjAyMzU4NzgsLTE1NDQyOTI4NF19
 -->
