@@ -3,7 +3,7 @@
 ## Summary
 
 ## Research Objective
-
+To solve a novel problem, single-image-guided 3D part assembly.
 ## Background and Problems
 
 ## Methods
@@ -16,5 +16,5 @@
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNjQzNzI1NF19
+eyJoaXN0b3J5IjpbLTE0MDU5MDYzODUsLTQyNjQzNzI1NF19
 -->
