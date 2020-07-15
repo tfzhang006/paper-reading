@@ -11,8 +11,9 @@ To recover 3D shape structures from single RGB images, where structure refers to
 - Natural images always contain cluttered background and the imaged objects have large variations of appearance due to different textures and lighting conditions.
 ## Methods
 - Structure masking network
+	- This is a two
 - Structure recovery network
-	- Inputs are 
+	- Feature map of the last layer of structure masking network concatenated with CNN feature of the input image is feed into the network.
 ## Evaluation
 
 ## Conclusion
@@ -21,5 +22,5 @@ To recover 3D shape structures from single RGB images, where structure refers to
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDE4NjkzNl19
+eyJoaXN0b3J5IjpbLTcwODg2MTM1NF19
 -->
