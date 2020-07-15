@@ -24,13 +24,16 @@ To generate a 3D point cloud geometry for a shape from a symbolic part tree repr
 		- PointNet encoder
 		- Scoring network
 ## Evaluation
-
+- Four categories of PartNet dataset. Assuming there are at maximum 10 children for every parent node.
+- Two structure-aware metrics, part coverage and part diversity.
+- HierInsSeg
 ## Conclusion
 
 ## Notes
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTI2Nzk2NiwtMTg2MTg0MDc5LDI1OD
-UxODE4NSwxOTAxMzY5MDk0LDEzNzk1NTQwNTVdfQ==
+eyJoaXN0b3J5IjpbLTE5NzgyMzUyODAsMTMwNTI2Nzk2NiwtMT
+g2MTg0MDc5LDI1ODUxODE4NSwxOTAxMzY5MDk0LDEzNzk1NTQw
+NTVdfQ==
 -->
