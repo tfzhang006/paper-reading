@@ -8,7 +8,11 @@ To generate a 3D point cloud geometry for a shape from a symbolic part tree repr
 - Extant work on holistic 3D shape generation does not explicitly consider part semantic and structural information in the generation process.
 - In contrast, a structure-conditioned 3D generative model enables many real-world applications in computer vision and graphics.
 ## Methods
-
+- Symbolic part tree representation. Following the semantic part hierarchy defined in PartNet.
+- Part-tree conditioned **generator**
+	- 
+- Part-tree conditioned **discriminator**
+- 
 ## Evaluation
 
 ## Conclusion
@@ -17,5 +21,5 @@ To generate a 3D point cloud geometry for a shape from a symbolic part tree repr
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM1MDQ0NTEsMTM3OTU1NDA1NV19
+eyJoaXN0b3J5IjpbLTQ4OTAyMjI2MSwxMzc5NTU0MDU1XX0=
 -->
