@@ -6,6 +6,7 @@ They introduce the task of single-image-guided 3D part assembly: inducing
 ## Research Objective
 They aim to learn generalizable skills that allow robots to autonomously assemble unseen objects from parts.
 ## Background and Problems
+- Robots can acquire geometry information for each part using 3D sensing, but the only information provided for the entire object shape is the instruction image.
 - 
 ## Methods
 
@@ -17,6 +18,6 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTg1MDc4NjMsLTM1MTA5NzMyMiwtND
-I2NDM3MjU0XX0=
+eyJoaXN0b3J5IjpbMzYxNTA2MTU4LC0zNTEwOTczMjIsLTQyNj
+QzNzI1NF19
 -->
