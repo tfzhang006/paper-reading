@@ -12,8 +12,8 @@ To generate a 3D point cloud geometry for a shape from a symbolic part tree repr
 	- Following the semantic part hierarchy defined in PartNet.
 	- Each part instance is composed of two components: a semantic label and a part instance identifier, both of which are represented as one-hot vectors.
 - Part-tree conditioned **generator**
-	- Part-tree encoder
-	- Part-tree feature decoder
+	- Part-tree encoder. Taking node feature, semantic label and part instance identifier of all children as input, the encoder, which is implemented as a PointNet, computes node feature for current node.
+	- Part-tree feature decoder.
 	- Part point cloud decoder
 - Part-tree conditioned **discriminator**
 - 
@@ -25,5 +25,5 @@ To generate a 3D point cloud geometry for a shape from a symbolic part tree repr
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDIxNTY0NywxMzc5NTU0MDU1XX0=
+eyJoaXN0b3J5IjpbMTkwMTM2OTA5NCwxMzc5NTU0MDU1XX0=
 -->
