@@ -14,14 +14,17 @@ To recover 3D shape structures from single RGB images, where structure refers to
 	- This is a two-scale network, in which the feature maps and outputs of the first scale network are fed into various layers of the second scale one for refinement.
 - Structure recovery network
 	- Feature map of the last layer of structure masking network concatenated with CNN feature of the input image is fed into the network.
-	- The box structure decoder is a recursive neural network(RvNN), which includes a node classifier and three type node decoder for different node.
+	- The box structure decoder is a recursive neural network(RvNN), which includes a node classifier and three types of node decoders for different nodes.
+	- The structure recovery loss is computed as the sum of the *box reconstruction error* and the *cross entropy loss for node classification*.
 ## Evaluation
-
+- 800 3D shapes from three categories in ShapeNet.
+- Rendering 60 images for each shape with randomly selected backgrounds from NYU v2.
+- Inferring consistent hierarchy trees for the shapes of each category.
 ## Conclusion
-
+- 
 ## Notes
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTA3NDg4MzldfQ==
+eyJoaXN0b3J5IjpbLTIyNDczMjgyOF19
 -->
