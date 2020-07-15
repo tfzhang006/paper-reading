@@ -26,7 +26,7 @@ To generate a 3D point cloud geometry for a shape from a symbolic part tree repr
 ## Evaluation
 - Four categories of PartNet dataset. Assuming there are at maximum 10 children for every parent node.
 - Two structure-aware metrics, part coverage and part diversity.
-- HierInsSeg is introduced to measure the part tree edit distance.
+- HierInsSeg score is introduced to measure the part tree edit distance.
 ## Conclusion
 - Our proposed PT2PC framework enables disentanglement of *shape structure* and *geometry generation factors*. 
 - Fixing the symbolic part tree and changing the Gaussian random noise.
@@ -35,7 +35,7 @@ To generate a 3D point cloud geometry for a shape from a symbolic part tree repr
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NjkyNzY0OCwxNTc0ODgyNTAzLDEzMD
-UyNjc5NjYsLTE4NjE4NDA3OSwyNTg1MTgxODUsMTkwMTM2OTA5
-NCwxMzc5NTU0MDU1XX0=
+eyJoaXN0b3J5IjpbLTExODEzOTEwODYsMTU3NDg4MjUwMywxMz
+A1MjY3OTY2LC0xODYxODQwNzksMjU4NTE4MTg1LDE5MDEzNjkw
+OTQsMTM3OTU1NDA1NV19
 -->
