@@ -20,12 +20,16 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 	- *Point-wise PointNet feature* together with current node feature is used to produce point-wise binary labels.
 - Overall loss function consists of average node classification loss and average node segmentation loss over all relevant nodes.
 ## Evaluation
-- FineSeg dataset. Part hierarchy for each shape is 
+- FineSeg dataset. Part hierarchy for each shape is constructed using [method](#References).
+- Comparison of semantic segmentation and instance segmentation.
+- PartNet does not produce semantic labels for points, so it needs extra module to predict a semantic label for each part.
+- 
 ## Conclusion
 
 ## Notes
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTI5NDg2MiwtMTU0NDI5Mjg0XX0=
+eyJoaXN0b3J5IjpbLTE5OTQ0NzUzMjMsMjEwOTI5NDg2MiwtMT
+U0NDI5Mjg0XX0=
 -->
