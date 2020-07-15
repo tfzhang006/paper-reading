@@ -23,13 +23,14 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 - FineSeg dataset. Part hierarchy for each shape is constructed using [method](#References).
 - Comparison of semantic segmentation and instance segmentation.
 - PartNet does not produce semantic labels for points, so it needs extra module to predict a semantic label for each part.
-- 
 ## Conclusion
-
+- Divide-and-conquer nature of recursive decomposition does help reduce the difficulty of segmentation learning.
+- PartNet still needs to be trained for each shape category separately. Learning a general model f
+- PartNet is trained with reasonable ground-truth hierarchies.
 ## Notes
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ0NzUzMjMsMjEwOTI5NDg2MiwtMT
-U0NDI5Mjg0XX0=
+eyJoaXN0b3J5IjpbNTQ5ODA5NzcyLDIxMDkyOTQ4NjIsLTE1ND
+QyOTI4NF19
 -->
