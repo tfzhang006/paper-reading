@@ -26,14 +26,14 @@ To generate a 3D point cloud geometry for a shape from a symbolic part tree repr
 ## Evaluation
 - Four categories of PartNet dataset. Assuming there are at maximum 10 children for every parent node.
 - Two structure-aware metrics, part coverage and part diversity.
-- HierInsSeg
+- HierInsSeg is introduced to measure the part tree edit distance.
 ## Conclusion
 
 ## Notes
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzgyMzUyODAsMTMwNTI2Nzk2NiwtMT
-g2MTg0MDc5LDI1ODUxODE4NSwxOTAxMzY5MDk0LDEzNzk1NTQw
-NTVdfQ==
+eyJoaXN0b3J5IjpbMTU3NDg4MjUwMywxMzA1MjY3OTY2LC0xOD
+YxODQwNzksMjU4NTE4MTg1LDE5MDEzNjkwOTQsMTM3OTU1NDA1
+NV19
 -->
