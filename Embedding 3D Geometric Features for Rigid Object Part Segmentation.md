@@ -9,7 +9,10 @@ To utilize 3D information for better object part segmentation.
 - 3D geometric features are also essential for object part segmentation.
 - 3D information can be extracted from a 2D image.
 ## Methods
-
+- Perspective Voxelization Algorithm
+- VolNet
+- GeoNet
+- 
 ## Evaluation
 
 ## Conclusion
@@ -18,6 +21,6 @@ To utilize 3D information for better object part segmentation.
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjY0ODI4NSwyMTI1MDY3NzM5LDE5NT
-EzODAzOTRdfQ==
+eyJoaXN0b3J5IjpbMTIxMDIyNzY0LC02NzI2NDgyODUsMjEyNT
+A2NzczOSwxOTUxMzgwMzk0XX0=
 -->
