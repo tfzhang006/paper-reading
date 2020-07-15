@@ -21,10 +21,11 @@ To recover 3D shape structures from single RGB images, where structure refers to
 - Rendering 60 images for each shape with randomly selected backgrounds from NYU v2.
 - Inferring consistent hierarchy trees for the shapes of each category.
 ## Conclusion
-- 
+- The firsh work to recover detailed 3D shape structures from 2D images.
+- Applications includes structure-aware image editing and structure-assisted 3D volume refinement.
 ## Notes
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDczMjgyOF19
+eyJoaXN0b3J5IjpbLTExODM2MDg3NDJdfQ==
 -->
