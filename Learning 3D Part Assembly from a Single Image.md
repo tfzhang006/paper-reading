@@ -3,7 +3,7 @@
 ## Summary
 
 ## Research Objective
-To solve a novel problem, single-image-guided 3D part assembly.
+To solve a novel problem, single-image-guided 3D part assembly. We aim to learn generalizable skills that allow robots to autonomously assemble unseen objects from parts
 ## Background and Problems
 
 ## Methods
@@ -16,5 +16,5 @@ To solve a novel problem, single-image-guided 3D part assembly.
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDU5MDYzODUsLTQyNjQzNzI1NF19
+eyJoaXN0b3J5IjpbLTExMDc2Njc0ODMsLTQyNjQzNzI1NF19
 -->
