@@ -15,8 +15,9 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 	- *Part shape feature*(128D) is extracted for the partial shape at current node.
 	- Taking the *current node feature*(256D) as input, which is formed by concatenation of part shape feature and recursive context feature, this module predicts its node type as one of the following three ones: adjacency, symmetry or leaf.
 	- This module is implemented with two fully-connected layers with tanh.
-	- It can be trained with the ground-tu
+	- It can be trained with the ground-truth hierarchical segmentation.
 - Node segmentation module
+	- 
 ## Evaluation
 
 ## Conclusion
@@ -25,5 +26,5 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTUzMTg1OSwtMTU0NDI5Mjg0XX0=
+eyJoaXN0b3J5IjpbLTk0OTQwNjE4MywtMTU0NDI5Mjg0XX0=
 -->
