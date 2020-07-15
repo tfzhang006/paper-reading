@@ -7,9 +7,11 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 ## Background and Problems
 - Existing models are trained targeting a fixed set of labels.
 - Labeling all primitives simultaneously cannot exploit the hierarchical nature.
-- 
 ## Methods
-
+- Node decoding module
+	- 
+- Node classification module
+- Node segmentation module
 ## Evaluation
 
 ## Conclusion
@@ -18,5 +20,5 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3OTcwNjAwMSwtMTU0NDI5Mjg0XX0=
+eyJoaXN0b3J5IjpbMTUzODM3NTczOSwtMTU0NDI5Mjg0XX0=
 -->
