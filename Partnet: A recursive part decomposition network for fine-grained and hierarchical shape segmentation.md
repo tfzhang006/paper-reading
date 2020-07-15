@@ -25,12 +25,13 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 - PartNet does not produce semantic labels for points, so it needs extra module to predict a semantic label for each part.
 ## Conclusion
 - Divide-and-conquer nature of recursive decomposition does help reduce the difficulty of segmentation learning.
-- PartNet still needs to be trained for each shape category separately. Learning a general model f
-- PartNet is trained with reasonable ground-truth hierarchies.
 ## Notes
-
+- PartNet still needs to be trained for each shape category separately. Learning a general decompositional model for shapes from multiple classes is a future direction. 
+- PartNet is trained with reasonable ground-truth hierarchies. An unsupervised method is demanded.
 ## References
+- Symmetry hierarchy of man-made objects
+- Learning hierarchical shape segmentation and labeling from online repositories
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5ODA5NzcyLDIxMDkyOTQ4NjIsLTE1ND
-QyOTI4NF19
+eyJoaXN0b3J5IjpbLTU3Njk3MjMwMywyMTA5Mjk0ODYyLC0xNT
+Q0MjkyODRdfQ==
 -->
