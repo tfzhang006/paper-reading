@@ -17,7 +17,7 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 	- This module is implemented with two fully-connected layers with tanh.
 	- It can be trained with the ground-truth hierarchical segmentation.
 - Node segmentation module
-	- 
+	- *Point-wise PointNet feature* together with
 ## Evaluation
 
 ## Conclusion
@@ -26,5 +26,5 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0OTQwNjE4MywtMTU0NDI5Mjg0XX0=
+eyJoaXN0b3J5IjpbMzQyNTg5MzQxLC0xNTQ0MjkyODRdfQ==
 -->
