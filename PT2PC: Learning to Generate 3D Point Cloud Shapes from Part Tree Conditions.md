@@ -28,13 +28,14 @@ To generate a 3D point cloud geometry for a shape from a symbolic part tree repr
 - Two structure-aware metrics, part coverage and part diversity.
 - HierInsSeg is introduced to measure the part tree edit distance.
 ## Conclusion
-- Our proposed PT2PC framework enables disStructure Interpolation
-entanglement of shape structure and geometry generation factors. We
+- Our proposed PT2PC framework enables disentanglement of *shape structure* and *geometry generation factors*. 
+- Fixing the symbolic part tree and changing the Gaussian random noise.
+- Fixing the noise and changing the input part trees.
 ## Notes
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NzEzMDQxOCwxNTc0ODgyNTAzLDEzMD
+eyJoaXN0b3J5IjpbMTc0NjkyNzY0OCwxNTc0ODgyNTAzLDEzMD
 UyNjc5NjYsLTE4NjE4NDA3OSwyNTg1MTgxODUsMTkwMTM2OTA5
 NCwxMzc5NTU0MDU1XX0=
 -->
