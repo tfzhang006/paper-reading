@@ -32,10 +32,10 @@ To generate a 3D point cloud geometry for a shape from a symbolic part tree repr
 - Fixing the symbolic part tree and changing the Gaussian random noise.
 - Fixing the noise and changing the input part trees.
 ## Notes
-[https://github.com/daerduoCarey/pt2pc](https://github.com/daerduoCarey/pt2pc)
+- [Code](https://github.com/daerduoCarey/pt2pc)
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTgyMzg1MSwtMTE4MTM5MTA4NiwxNT
-c0ODgyNTAzLDEzMDUyNjc5NjYsLTE4NjE4NDA3OSwyNTg1MTgx
-ODUsMTkwMTM2OTA5NCwxMzc5NTU0MDU1XX0=
+eyJoaXN0b3J5IjpbLTE3NjI2MzYxNzcsLTExODEzOTEwODYsMT
+U3NDg4MjUwMywxMzA1MjY3OTY2LC0xODYxODQwNzksMjU4NTE4
+MTg1LDE5MDEzNjkwOTQsMTM3OTU1NDA1NV19
 -->
