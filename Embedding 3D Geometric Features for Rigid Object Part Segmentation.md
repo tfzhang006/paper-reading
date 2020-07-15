@@ -12,7 +12,7 @@ To utilize 3D information for better object part segmentation.
 - Perspective Voxelization Algorithm
 - VolNet
 - GeoNet
-- 
+- AppNet
 ## Evaluation
 
 ## Conclusion
@@ -21,6 +21,6 @@ To utilize 3D information for better object part segmentation.
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDIyNzY0LC02NzI2NDgyODUsMjEyNT
-A2NzczOSwxOTUxMzgwMzk0XX0=
+eyJoaXN0b3J5IjpbMTg5ODg4NTY0MCwtNjcyNjQ4Mjg1LDIxMj
+UwNjc3MzksMTk1MTM4MDM5NF19
 -->
