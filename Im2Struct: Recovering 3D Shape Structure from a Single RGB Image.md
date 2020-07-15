@@ -6,7 +6,7 @@ This paper develop a network to recursively decodes a hierarchy of cuboids from 
 To recover 3D shape structures from single RGB images, where structure refers to shape parts represented by cuboids.
 ## Background and Problems
 - Existing models which learn to reconstruct 3D volumes from 2D images lose shape topology or part structure information.
-- 
+- Shape structure, encompassing part com- position and part relations, has been found highly important to semantic 3D shape understanding and editing.
 ## Methods
 
 ## Evaluation
@@ -17,5 +17,5 @@ To recover 3D shape structures from single RGB images, where structure refers to
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDg3NDcxXX0=
+eyJoaXN0b3J5IjpbLTE1NTU0NzI1NjhdfQ==
 -->
