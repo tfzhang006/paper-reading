@@ -17,10 +17,12 @@ To generate a 3D point cloud geometry for a shape from a symbolic part tree repr
 	- Part point cloud decoder. The point cloud decoder is designed to deform a fixed surface point cloud of a unit cube into target part point cloud based on its input. Specifically, the input is a 1000-size point cloud and each point's coordinate is concatenated with the part feature. After obtaining coordinates of target point cloud, FPS is adopted to perform downsample.
 - Part-tree conditioned **discriminator**
 	- Part point cloud discriminator
-		- Part point cloud encoder
+		- Part point cloud encoder. 
 		- Tree-based feature encoder
 		- Scoring network
 	- Shape point cloud discriminator
+		- PointNet encoder
+		- Scoring network
 ## Evaluation
 
 ## Conclusion
@@ -29,6 +31,6 @@ To generate a 3D point cloud geometry for a shape from a symbolic part tree repr
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzUwMjA0OTgsLTE4NjE4NDA3OSwyNT
+eyJoaXN0b3J5IjpbLTE0NjIyMTU2NzgsLTE4NjE4NDA3OSwyNT
 g1MTgxODUsMTkwMTM2OTA5NCwxMzc5NTU0MDU1XX0=
 -->
