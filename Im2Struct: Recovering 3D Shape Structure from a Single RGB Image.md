@@ -3,7 +3,7 @@
 ## Summary
 
 ## Research Objective
-To recov
+To recover 3D shape structures from single RGB images, where structure refers to shape parts represented by cuboids.
 ## Background and Problems
 
 ## Methods
@@ -16,5 +16,5 @@ To recov
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5NTQyMDAxXX0=
+eyJoaXN0b3J5IjpbLTE0MTkxNDEzODldfQ==
 -->
