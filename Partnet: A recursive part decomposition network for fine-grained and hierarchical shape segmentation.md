@@ -9,8 +9,10 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 - Labeling all primitives simultaneously cannot exploit the hierarchical nature.
 ## Methods
 - Node decoding module
-	- 256D duplicated parent node feature is decoded into two 128D features for child 
+	- 256D duplicated parent node feature is decoded into two 128D features for child nodes, which is called *recursive context feature*.
+	- It is implemented with a two-layer fully connected network with tanh.
 - Node classification module
+	- 
 - Node segmentation module
 ## Evaluation
 
@@ -20,5 +22,5 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MjM0MTE2LC0xNTQ0MjkyODRdfQ==
+eyJoaXN0b3J5IjpbLTIwNTU2ODU2MTIsLTE1NDQyOTI4NF19
 -->
