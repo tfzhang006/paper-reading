@@ -1,4 +1,4 @@
-# Partnet: A recursive part decomposition network for fine-grained and hierarchical shape segmentation
+# Partnet: A Recursive Part Decomposition Network for Fine-grained and Hierarchical Shape Segmentation
 
 ## Summary
 This paper proposes a model for hierarchical segmentation of 3D shapes, which is based on recursive binary decomposition.
@@ -32,6 +32,6 @@ To segment a 3D shape in point cloud into an unfixed number of parts, depending 
 - Symmetry hierarchy of man-made objects
 - Learning hierarchical shape segmentation and labeling from online repositories
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3Njk3MjMwMywyMTA5Mjk0ODYyLC0xNT
-Q0MjkyODRdfQ==
+eyJoaXN0b3J5IjpbLTk0NjYxNDczNSwtNTc2OTcyMzAzLDIxMD
+kyOTQ4NjIsLTE1NDQyOTI4NF19
 -->
