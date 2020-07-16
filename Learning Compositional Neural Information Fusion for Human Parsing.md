@@ -26,9 +26,9 @@ To utilize cross-level information of body structure based on graph.
 ## Conclusion
 - A neural information fusion framework explores the compositional relations within human structures.
 ## Notes
-
+[Code](https://github.com/ZzzjzzZ/CompositionalHumanParsing)
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTg5NTIyMCwxNzY4MDA5MDQ1LC0xND
+eyJoaXN0b3J5IjpbLTc3NjYxNDA1NSwxNzY4MDA5MDQ1LC0xND
 I2NDAzODM4XX0=
 -->
