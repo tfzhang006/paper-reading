@@ -11,8 +11,8 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 -  It is a hart problem to teach machines to read sequential instructions depicted with natural languages and figures in step- by-step assembling process.
 ## Methods
 - Pose and scale normalization of parts
-	- Normalize each part point cloud to have zero-mean center and use a local part coordinate
-	- The longest box diagno
+	- Normalize each part point cloud to have zero-mean center and use a local part coordinate.
+	- The longest box diagonal across all parts of a shape has a unit length while preserving their relative scales.
 - Part-instance image segmentation
 - Part pose prediction
 ## Evaluation
@@ -23,6 +23,6 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjkxMzY1NzMsMzM4Mjc2MTY2LC0zNT
-EwOTczMjIsLTQyNjQzNzI1NF19
+eyJoaXN0b3J5IjpbMzc0MDA0NzgxLDMzODI3NjE2NiwtMzUxMD
+k3MzIyLC00MjY0MzcyNTRdfQ==
 -->
