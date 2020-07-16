@@ -10,7 +10,7 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 - Those structure-aware shape modeling works need to assume specific granularity or semantics of the input parts.
 -  It is a hart problem to teach machines to read sequential instructions depicted with natural languages and figures in step- by-step assembling process.
 ## Methods
-
+- 
 ## Evaluation
 
 ## Conclusion
@@ -19,6 +19,6 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4Mjc2MTY2LC0zNTEwOTczMjIsLTQyNj
-QzNzI1NF19
+eyJoaXN0b3J5IjpbLTEzMzcwNzg4ODcsMzM4Mjc2MTY2LC0zNT
+EwOTczMjIsLTQyNjQzNzI1NF19
 -->
