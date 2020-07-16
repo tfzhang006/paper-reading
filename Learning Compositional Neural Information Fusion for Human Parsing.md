@@ -8,8 +8,14 @@ To utilize cross-level information of body structure based on graph.
 - Only focusing on leaf nodes in human hierarchy loses cross-level information.
 ## Methods
 - Direct inference network
+	- A backbone network for *image embedding*
+	- Three level-specific FCN for *level-specific embedding*
+	- A Squeeze-and-Excitation block for *node-specific embedding*
+	- The direct inference network predicts segmentation
 - Top-down inference network
+	- We concatenate initial estimation of parent node and current node feature and feed it into FCN-based top-down inference network.
 - Bottom-up inference network
+	- 
 - Conditional fusion network
 ## Evaluation
 
@@ -19,5 +25,6 @@ To utilize cross-level information of body structure based on graph.
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2ODAwOTA0NSwtMTQyNjQwMzgzOF19
+eyJoaXN0b3J5IjpbMTgxNTgxNzQxNywxNzY4MDA5MDQ1LC0xND
+I2NDAzODM4XX0=
 -->
