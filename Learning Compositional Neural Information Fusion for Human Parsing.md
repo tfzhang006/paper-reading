@@ -24,11 +24,11 @@ To utilize cross-level information of body structure based on graph.
 - LIP / PASCAL-Person-Part / ATR / Fashion Clothing
 - 
 ## Conclusion
-
+- A neural information fusion framework explores the compositional relations within human structures.
 ## Notes
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxMjA5NDYwLDE3NjgwMDkwNDUsLTE0Mj
-Y0MDM4MzhdfQ==
+eyJoaXN0b3J5IjpbLTI4NTg5NTIyMCwxNzY4MDA5MDQ1LC0xND
+I2NDAzODM4XX0=
 -->
