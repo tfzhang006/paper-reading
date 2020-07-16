@@ -14,7 +14,8 @@ To build a continuous latent space that can incorporate diverse shape variations
 - Hierarchical graph networks
 	- Geometry encoder.  Encoding the geometric representation of a leaf node into a feature vector.
 	- Graph encoder.
-		- Several iterations of message passing
+		- PerformmingSeveral iterations of message passing in a child graph.
+		- Perform
 	- Geometry decoder
 	- Graph decoder
 ## Evaluation
@@ -25,6 +26,6 @@ To build a continuous latent space that can incorporate diverse shape variations
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzMzg4OTAwLC0xOTg1MzU3NTQsLTcwNj
-I2NTMzMV19
+eyJoaXN0b3J5IjpbMjAzNzYyNjEyMiwtMTk4NTM1NzU0LC03MD
+YyNjUzMzFdfQ==
 -->
