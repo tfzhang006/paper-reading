@@ -16,9 +16,10 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 - **Part-instance image segmentation**
 	- To generate instance-level 2D segmentation mask on image.
 	- For each part point cloud, we extract $f_{3d}=[f_{local}; f_{global}]$, where $f_{local}$ is a per-part local feature and $f_{global}$ is a contextual feature.
-	- The U-Net takes an image as input and produce a bottleneck feature map $f_{2d}$. 
+	- The U-Net takes an image as input and produce a bottleneck feature map $f_{2d}$. Concatenating the $f_{2d}$ and $f_{3d}$ as a new bottleneck feature, the decoder then produces a part mask for every input part.
 - **Part pose prediction**
 	- Leveraging both the 2D mask features and the 3D geometry features to propose 6D part poses.
+	- 
 ## Evaluation
 
 ## Conclusion
@@ -27,6 +28,6 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDUxMzk5MCwyODA4NDM4OSwzMzgyNz
-YxNjYsLTM1MTA5NzMyMiwtNDI2NDM3MjU0XX0=
+eyJoaXN0b3J5IjpbNDYxNzA0MTQ0LDI4MDg0Mzg5LDMzODI3Nj
+E2NiwtMzUxMDk3MzIyLC00MjY0MzcyNTRdfQ==
 -->
