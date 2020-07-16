@@ -14,7 +14,9 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 	- Normalize each part point cloud to have zero-mean center and use a local part coordinate.
 	- The longest box diagonal across all parts of a shape has a unit length while preserving their relative scales.
 - Part-instance image segmentation
+	- To generate instance-level 2D segmentation mask on image.
 - Part pose prediction
+	- everage both the 2D mask features and the 3D geometry features to propose 6D part poses
 ## Evaluation
 
 ## Conclusion
@@ -23,6 +25,6 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0MDA0NzgxLDMzODI3NjE2NiwtMzUxMD
+eyJoaXN0b3J5IjpbNTA3NzgyODgxLDMzODI3NjE2NiwtMzUxMD
 k3MzIyLC00MjY0MzcyNTRdfQ==
 -->
