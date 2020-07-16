@@ -18,15 +18,17 @@ To utilize cross-level information of body structure based on graph.
 	- By using position-wise max-pooling, we can gather information from multiple descendants.
 	- Then we concatenate information from children and current node to give a prediction.
 - Conditional fusion network
-	- 
+	- For the results of three network, we estimate a extra confidence for each of them.
+	- The fusion network combines the results from three sources mentioned above according to the confidence for final prediction.
 ## Evaluation
-
+- LIP / PASCAL-Person-Part / ATR / Fashion Clothing
+- 
 ## Conclusion
 
 ## Notes
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzg5OTUxLDE3NjgwMDkwNDUsLTE0Mj
+eyJoaXN0b3J5IjpbMzcxMjA5NDYwLDE3NjgwMDkwNDUsLTE0Mj
 Y0MDM4MzhdfQ==
 -->
