@@ -15,8 +15,10 @@ To utilize cross-level information of body structure based on graph.
 - Top-down inference network
 	- We concatenate initial estimation of parent node and current node feature and feed it into FCN-based top-down inference network.
 - Bottom-up inference network
-	- 
+	- By using position-wise max-pooling, we can gather information from multiple descendants.
+	- Then we concatenate information from children and current node to give a prediction.
 - Conditional fusion network
+	- 
 ## Evaluation
 
 ## Conclusion
@@ -25,6 +27,6 @@ To utilize cross-level information of body structure based on graph.
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTgxNzQxNywxNzY4MDA5MDQ1LC0xND
-I2NDAzODM4XX0=
+eyJoaXN0b3J5IjpbLTMxMzg5OTUxLDE3NjgwMDkwNDUsLTE0Mj
+Y0MDM4MzhdfQ==
 -->
