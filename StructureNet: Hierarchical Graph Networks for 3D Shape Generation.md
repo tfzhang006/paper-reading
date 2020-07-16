@@ -10,9 +10,9 @@ To build a continuous latent space that can incorporate diverse shape variations
 - A hierarchy of graph
 	- Part representation. Minimum oriented bounding box or a point cloud. Each part also has a semantic label.
 	- Hierarchical decomposition.
-	- Geometric relationship. Adjacency, reflective symmetry, rotational symmet
+	- Geometric relationship. Adjacency, reflective symmetry, rotational symmetry, and translational symmetry.
 - Hierarchical graph networks
-	- Geometry encoder
+	- Geometry encoder.  Encoding th
 	- Graph encoder
 	- Geometry decoder
 	- Graph decoder
@@ -24,5 +24,5 @@ To build a continuous latent space that can incorporate diverse shape variations
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkyNDk3MzU0LC03MDYyNjUzMzFdfQ==
+eyJoaXN0b3J5IjpbLTgyNDI0NTY1NSwtNzA2MjY1MzMxXX0=
 -->
