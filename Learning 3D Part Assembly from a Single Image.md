@@ -38,11 +38,13 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 - Part Accuracy Score
 - Shape Chamfer distance
 ## Conclusion
-
+- The part-instance im- age segmentation module plays the most important role in the pipeline.
+- How to leverage multiple images or 3D partial scans as inputs to achieve better results.
+- Explicitly considering the connecting junctions between parts as constraints.
 ## Notes
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQ0NzIxOTgsMjgwODQzODksMzM4Mj
-c2MTY2LC0zNTEwOTczMjIsLTQyNjQzNzI1NF19
+eyJoaXN0b3J5IjpbMTcwNzI1Njk0NCwyODA4NDM4OSwzMzgyNz
+YxNjYsLTM1MTA5NzMyMiwtNDI2NDM3MjU0XX0=
 -->
