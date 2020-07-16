@@ -24,8 +24,9 @@ To build a continuous latent space that can incorporate diverse shape variations
 		- To transform a parent feature vector back into the child graph where each child part is represented by a feature vector and its label.
 		- The decoder is designed to output a fixed maximum number(10) of child parts and all edges between them, together with a binary probability that predict part or node exists in the child graph.
 		- Predicting initial feature vectors from parent feature vector and existence. Discarding no existing parts.
-		- Recovering the edges between a pair of parts based on their pair of feature vectors a. Discarding no existing edges.
-		- Performing
+		- Recovering the edges between a pair of parts based on their pair of feature vectors based on predicted probability. Discarding no existing edges.
+		- Performing two iterations of message passing.
+		- Decoding the semantic labels and a leaf part probability.
 ## Evaluation
 
 ## Conclusion
@@ -34,6 +35,6 @@ To build a continuous latent space that can incorporate diverse shape variations
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NjMzNjMwMCwyODAxNzkyMDksLTE5OD
-UzNTc1NCwtNzA2MjY1MzMxXX0=
+eyJoaXN0b3J5IjpbODg1MjgwMzUxLDI4MDE3OTIwOSwtMTk4NT
+M1NzU0LC03MDYyNjUzMzFdfQ==
 -->
