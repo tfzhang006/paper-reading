@@ -20,8 +20,10 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 - **Part pose prediction**
 	- Leveraging both the 2D mask features and the 3D geometry features to propose 6D part poses.
 	- Mask-conditioned part feature
-		- $f_{img}, f_{mask}$ extracted from separate ResNet-18 and $f_{3d}$ mentioned be
+		- $f_{img}, f_{mask}$ extracted from separate ResNet-18 and $f_{3d}$ mentioned before.
 	- Two-phase graph convolution
+		- The first phase. Drawing pairwise edges among all parts in every geometrically equivalent part classes and perform graph convolution.
+		- The second phase. 
 ## Evaluation
 
 ## Conclusion
@@ -30,6 +32,6 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTc0MDY3NiwyODA4NDM4OSwzMzgyNz
+eyJoaXN0b3J5IjpbMTAwNzAyMzEzNywyODA4NDM4OSwzMzgyNz
 YxNjYsLTM1MTA5NzMyMiwtNDI2NDM3MjU0XX0=
 -->
