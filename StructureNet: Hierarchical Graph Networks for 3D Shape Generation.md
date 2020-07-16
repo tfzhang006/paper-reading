@@ -32,9 +32,9 @@ To build a continuous latent space that can incorporate diverse shape variations
 ## Conclusion
 
 ## Notes
-
+- The VAE is trained on a dataset of shapes from a given category.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1MjgwMzUxLDI4MDE3OTIwOSwtMTk4NT
-M1NzU0LC03MDYyNjUzMzFdfQ==
+eyJoaXN0b3J5IjpbNTQ1NjAyNTU3LDg4NTI4MDM1MSwyODAxNz
+kyMDksLTE5ODUzNTc1NCwtNzA2MjY1MzMxXX0=
 -->
