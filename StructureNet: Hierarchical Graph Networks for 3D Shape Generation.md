@@ -8,7 +8,7 @@ To build a continuous latent space that can incorporate diverse shape variations
 - Because of the binary constraint, GRASS has to search over possible binarizations of the n-ary hierarchies found in objects. The task of finding a canonical binary tree representation becomes increasingly challenging on a very large shape family.
 ## Methods
 - A hierarchy of graph
-	- Part representation
+	- Part representation. Minimum oriented bounding box or a point cloud. Each part also has a s
 	- Hierarchical decomposition
 	- Geometric relationship
 - Hierarchical graph networks
@@ -24,5 +24,5 @@ To build a continuous latent space that can incorporate diverse shape variations
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNjI2NTMzMV19
+eyJoaXN0b3J5IjpbLTE3MjQzNTk0NjYsLTcwNjI2NTMzMV19
 -->
