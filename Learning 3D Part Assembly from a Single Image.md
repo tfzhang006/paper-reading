@@ -15,7 +15,7 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 	- The longest box diagonal across all parts of a shape has a unit length while preserving their relative scales.
 - **Part-instance image segmentation**
 	- To generate instance-level 2D segmentation mask on image.
-	- 
+	- For each part point cloud, we extract
 - **Part pose prediction**
 	- Leveraging both the 2D mask features and the 3D geometry features to propose 6D part poses.
 ## Evaluation
@@ -26,6 +26,6 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgwODQzODksMzM4Mjc2MTY2LC0zNTEwOT
-czMjIsLTQyNjQzNzI1NF19
+eyJoaXN0b3J5IjpbLTEwNzYxNjgyNCwyODA4NDM4OSwzMzgyNz
+YxNjYsLTM1MTA5NzMyMiwtNDI2NDM3MjU0XX0=
 -->
