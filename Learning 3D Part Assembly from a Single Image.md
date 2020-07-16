@@ -2,7 +2,7 @@
 
 ## Summary
 They introduce the task of single-image-guided 3D part assembly: inducing
-6D poses of the parts in 3D space from a set of 3D unlabeled parts and an image depicting the complete object.
+6D poses of the parts in 3D space from a set of 3D *unlabeled* parts and an image depicting the complete object.
 ## Research Objective
 They aim to learn generalizable skills that allow robots to autonomously assemble unseen objects from parts.
 ## Background and Problems
@@ -24,15 +24,17 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 	- Two-phase graph convolution
 		- The first phase. Drawing pairwise edges among all parts in every geometrically equivalent part classes and performing graph convolution.
 		- The second phase. Drawing a new set of edges by finding top-5 nearest neighbors for each part based upon the initial assembly and performing graph convolution.
-		- The 
+		- The graph convolution is implemented as two iterations of message passing.
+		- A MLP is used to decoder part pose.
+- 
 ## Evaluation
-
+-
 ## Conclusion
 
 ## Notes
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTkxNzIyNTYsMjgwODQzODksMzM4Mj
-c2MTY2LC0zNTEwOTczMjIsLTQyNjQzNzI1NF19
+eyJoaXN0b3J5IjpbNDczNzE3ODkwLDI4MDg0Mzg5LDMzODI3Nj
+E2NiwtMzUxMDk3MzIyLC00MjY0MzcyNTRdfQ==
 -->
