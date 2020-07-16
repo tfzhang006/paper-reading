@@ -18,9 +18,11 @@ To build a continuous latent space that can incorporate diverse shape variations
 		- The graph feature vector is computed by max-pooling over all child parts.
 		- Concatenating the graph feature vector computed after each iteration and pass them through a SLP.
 	- Geometry decoder
+		- To transform the feature vector back into the geometry representation.
 		- Both bounding box decoder and point cloud decoder are implemented as a MLP.
 	- Graph decoder
-		- 
+		- To transform a parent feature vector back into the child graph where each child part is represented by a feature vector and its label.
+		- The decoder is designed to output a fixed maximum number(10) of child parts and all edges between them, together with a binary probability that predict part or node exists in the child graph.
 ## Evaluation
 
 ## Conclusion
@@ -29,6 +31,6 @@ To build a continuous latent space that can incorporate diverse shape variations
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgwMTc5MjA5LC0xOTg1MzU3NTQsLTcwNj
-I2NTMzMV19
+eyJoaXN0b3J5IjpbLTMzNzkxNDE0NCwyODAxNzkyMDksLTE5OD
+UzNTc1NCwtNzA2MjY1MzMxXX0=
 -->
