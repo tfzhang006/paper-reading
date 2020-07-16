@@ -2,7 +2,7 @@
 ## Summary
 This work proposes to combine neural networks with the compositional hierarchy of human bodies for efficient and complete human parsing.
 ## Research Objective
-
+To utilize cross-level information of body part 
 ## Background and Problems
 
 ## Methods
@@ -15,5 +15,5 @@ This work proposes to combine neural networks with the compositional hierarchy o
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyODQ5ODM0LC0xNDI2NDAzODM4XX0=
+eyJoaXN0b3J5IjpbMTkwMjYyMzAyNiwtMTQyNjQwMzgzOF19
 -->
