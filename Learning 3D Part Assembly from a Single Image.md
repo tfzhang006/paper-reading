@@ -19,7 +19,7 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 	- The U-Net takes an image as input and produce a bottleneck feature map $f_{2d}$. Concatenating the $f_{2d}$ and $f_{3d}$ as a new bottleneck feature, the decoder then produces a part mask for every input part.
 - **Part pose prediction**
 	- Leveraging both the 2D mask features and the 3D geometry features to propose 6D part poses.
-	- 
+	- Mask-conditio
 ## Evaluation
 
 ## Conclusion
@@ -28,6 +28,6 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxNzA0MTQ0LDI4MDg0Mzg5LDMzODI3Nj
+eyJoaXN0b3J5IjpbOTgzNTUxNjc2LDI4MDg0Mzg5LDMzODI3Nj
 E2NiwtMzUxMDk3MzIyLC00MjY0MzcyNTRdfQ==
 -->
