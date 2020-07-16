@@ -14,7 +14,8 @@ To build a continuous latent space that can incorporate diverse shape variations
 - Hierarchical graph networks
 	- Geometry encoder
 	- Graph encoder
-	- 
+	- Geometry decoder
+	- Graph decoder
 ## Evaluation
 
 ## Conclusion
@@ -23,5 +24,5 @@ To build a continuous latent space that can incorporate diverse shape variations
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDc1Mjg2XX0=
+eyJoaXN0b3J5IjpbLTcwNjI2NTMzMV19
 -->
