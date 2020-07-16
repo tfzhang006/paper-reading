@@ -26,15 +26,23 @@ They aim to learn generalizable skills that allow robots to autonomously assembl
 		- The second phase. Drawing a new set of edges by finding top-5 nearest neighbors for each part based upon the initial assembly and performing graph convolution.
 		- The graph convolution is implemented as two iterations of message passing.
 		- A MLP is used to decoder part pose.
-- 
+- Loss for part-instance image segmentation
+	- Performing *Hungarian matching* within each geometrically equivalent class
+	- 
+- Loss for part pose prediction
+	- Performing Hungarian matching within each geometrically equivalent class
+	- L2 loss for part translation, *Chamfer distance* and L2 loss for part rotation, and holistic Chamfer distance for shape. 
 ## Evaluation
--
+- Three furniture categories filtering out the shapes with more than 20 parts.
+- Rendering images from PartNet models
+- Part Accuracy Score
+- Shape Chamfer distance
 ## Conclusion
 
 ## Notes
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczNzE3ODkwLDI4MDg0Mzg5LDMzODI3Nj
-E2NiwtMzUxMDk3MzIyLC00MjY0MzcyNTRdfQ==
+eyJoaXN0b3J5IjpbLTEzNTQ0NzIxOTgsMjgwODQzODksMzM4Mj
+c2MTY2LC0zNTEwOTczMjIsLTQyNjQzNzI1NF19
 -->
