@@ -12,7 +12,7 @@ To build a continuous latent space that can incorporate diverse shape variations
 	- Hierarchical decomposition.
 	- Geometric relationship. Adjacency, reflective symmetry, rotational symmetry, and translational symmetry.
 - Hierarchical graph networks
-	- Geometry encoder.  Encoding th
+	- Geometry encoder.  Encoding the geometric representation of a leaf node into a feature vector.
 	- Graph encoder
 	- Geometry decoder
 	- Graph decoder
@@ -24,5 +24,5 @@ To build a continuous latent space that can incorporate diverse shape variations
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDI0NTY1NSwtNzA2MjY1MzMxXX0=
+eyJoaXN0b3J5IjpbLTE5ODUzNTc1NCwtNzA2MjY1MzMxXX0=
 -->
