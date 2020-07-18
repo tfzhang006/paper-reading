@@ -8,16 +8,17 @@ To better model structural variants of 3D shapes through learning a part-aware g
 - Existing deep generative models tend to generate 3D models in a holistic manner, without comprehending its compositional parts explicitly.
 - A consensus about the "structure" of a shape is the combination of part composition and the relative positioning between parts.
 ## Methods
-- **Part generators**. 
+- **Part generators**. K part generators for K predefined semantic labels.
+	- 
 - **Part assembler**.
 ## Evaluation
 
 ## Conclusion
 
 ## Notes
-
+- Part generation in this paper means part category rather than part instance.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTA3ODM5MSwtMzk5Mjc5MTIzLC02NT
-U3MDA4NF19
+eyJoaXN0b3J5IjpbNjUzNjIzOTA0LDIxMjUwNzgzOTEsLTM5OT
+I3OTEyMywtNjU1NzAwODRdfQ==
 -->
