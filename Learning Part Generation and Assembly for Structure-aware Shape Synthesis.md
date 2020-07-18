@@ -19,13 +19,16 @@ To better model structural variants of 3D shapes through learning a part-aware g
 	- Specifying an anchor part which is kept fixed to make the transformation estimation determined. The occupied voxels in the anchor part volumes are set to -1.
 ## Evaluation
 - ShapeNet part dataset
+- Part generation: Average symmetry measure
+- Part assembly: Part assembly quality(average IoU)
+- Random shape generation: Diversity
 ## Conclusion
 
 ## Notes
 - Part generation in this paper means part category rather than part instance.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTk0NDQwMCwtOTE5MTQ1MjIyLDE4OD
-E0NjM0OTIsNDYyODg1Mzk0LDIxMjUwNzgzOTEsLTM5OTI3OTEy
-MywtNjU1NzAwODRdfQ==
+eyJoaXN0b3J5IjpbLTMxNjg0NDQwLDEyNTk5NDQ0MDAsLTkxOT
+E0NTIyMiwxODgxNDYzNDkyLDQ2Mjg4NTM5NCwyMTI1MDc4Mzkx
+LC0zOTkyNzkxMjMsLTY1NTcwMDg0XX0=
 -->
