@@ -24,13 +24,14 @@ To better model structural variants of 3D shapes through learning a part-aware g
 - Random shape generation: Diversity(inception score)
 - Shape segmentation
 ## Conclusion
-
+- The part assembler learns the spatial relations between semantic parts in terms of relative different parts, so it can assemble parts into a valid and complete shape volume.
 ## Notes
 - Part generation in this paper means part category rather than part instance.
 - The part generator and part assembler are not trained jointly.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzA4MjI0MywtNjI2NTIxMDY2LDEyNT
-k5NDQ0MDAsLTkxOTE0NTIyMiwxODgxNDYzNDkyLDQ2Mjg4NTM5
-NCwyMTI1MDc4MzkxLC0zOTkyNzkxMjMsLTY1NTcwMDg0XX0=
+eyJoaXN0b3J5IjpbMTA2Nzc2ODI4NCwtMTI3MDgyMjQzLC02Mj
+Y1MjEwNjYsMTI1OTk0NDQwMCwtOTE5MTQ1MjIyLDE4ODE0NjM0
+OTIsNDYyODg1Mzk0LDIxMjUwNzgzOTEsLTM5OTI3OTEyMywtNj
+U1NzAwODRdfQ==
 -->
