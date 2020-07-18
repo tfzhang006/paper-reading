@@ -21,14 +21,14 @@ To better model structural variants of 3D shapes through learning a part-aware g
 - ShapeNet part dataset
 - Part generation: Average symmetry measure
 - Part assembly: Part assembly quality(average IoU)
-- Random shape generation: Diversity
+- Random shape generation: Diversity(inception score)
 ## Conclusion
 
 ## Notes
 - Part generation in this paper means part category rather than part instance.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjg0NDQwLDEyNTk5NDQ0MDAsLTkxOT
-E0NTIyMiwxODgxNDYzNDkyLDQ2Mjg4NTM5NCwyMTI1MDc4Mzkx
-LC0zOTkyNzkxMjMsLTY1NTcwMDg0XX0=
+eyJoaXN0b3J5IjpbLTExNDc5NTM5NTYsMTI1OTk0NDQwMCwtOT
+E5MTQ1MjIyLDE4ODE0NjM0OTIsNDYyODg1Mzk0LDIxMjUwNzgz
+OTEsLTM5OTI3OTEyMywtNjU1NzAwODRdfQ==
 -->
