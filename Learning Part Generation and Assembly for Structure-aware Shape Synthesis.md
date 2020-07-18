@@ -22,13 +22,14 @@ To better model structural variants of 3D shapes through learning a part-aware g
 - Part generation: Average symmetry measure
 - Part assembly: Part assembly quality(average IoU)
 - Random shape generation: Diversity(inception score)
+- Shape segmentation
 ## Conclusion
 
 ## Notes
 - Part generation in this paper means part category rather than part instance.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDc5NTM5NTYsMTI1OTk0NDQwMCwtOT
-E5MTQ1MjIyLDE4ODE0NjM0OTIsNDYyODg1Mzk0LDIxMjUwNzgz
-OTEsLTM5OTI3OTEyMywtNjU1NzAwODRdfQ==
+eyJoaXN0b3J5IjpbLTYyNjUyMTA2NiwxMjU5OTQ0NDAwLC05MT
+kxNDUyMjIsMTg4MTQ2MzQ5Miw0NjI4ODUzOTQsMjEyNTA3ODM5
+MSwtMzk5Mjc5MTIzLC02NTU3MDA4NF19
 -->
