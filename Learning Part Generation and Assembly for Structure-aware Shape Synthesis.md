@@ -18,14 +18,14 @@ To better model structural variants of 3D shapes through learning a part-aware g
 	- Five volumetric fully convolutional layers.
 	- Specifying an anchor part which is kept fixed to make the transformation estimation determined. The occupied voxels in the anchor part volumes are set to -1.
 ## Evaluation
-- Shape
+- ShapeNet part dataset
 ## Conclusion
 
 ## Notes
 - Part generation in this paper means part category rather than part instance.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NjU0NzkzOCwtOTE5MTQ1MjIyLDE4OD
+eyJoaXN0b3J5IjpbMTI1OTk0NDQwMCwtOTE5MTQ1MjIyLDE4OD
 E0NjM0OTIsNDYyODg1Mzk0LDIxMjUwNzgzOTEsLTM5OTI3OTEy
 MywtNjU1NzAwODRdfQ==
 -->
