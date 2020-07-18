@@ -15,8 +15,8 @@ To better model structural variants of 3D shapes through learning a part-aware g
 - **Part assembler**. 
 	- Taking K part volumes as input, part assembler regresses a transformation, including a scaling and a translation for each part.
 	- A 64x64x64xK input tensor.
-	- 
-	- Specifying an anchor part which is kept fixed to make the transformation estimation determined.
+	- Five volumetric fully convolutional layers.
+	- Specifying an anchor part which is kept fixed to make the transformation estimation determined. The occupied voxels in the anchor part volumes are set to -1.
 ## Evaluation
 
 ## Conclusion
@@ -25,7 +25,7 @@ To better model structural variants of 3D shapes through learning a part-aware g
 - Part generation in this paper means part category rather than part instance.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODUyNjc5MjksMTg4MTQ2MzQ5Miw0Nj
-I4ODUzOTQsMjEyNTA3ODM5MSwtMzk5Mjc5MTIzLC02NTU3MDA4
-NF19
+eyJoaXN0b3J5IjpbLTkxOTE0NTIyMiwxODgxNDYzNDkyLDQ2Mj
+g4NTM5NCwyMTI1MDc4MzkxLC0zOTkyNzkxMjMsLTY1NTcwMDg0
+XX0=
 -->
