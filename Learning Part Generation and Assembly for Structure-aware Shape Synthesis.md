@@ -27,9 +27,10 @@ To better model structural variants of 3D shapes through learning a part-aware g
 
 ## Notes
 - Part generation in this paper means part category rather than part instance.
+- The part generator and part assembler are not trained jointly.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjUyMTA2NiwxMjU5OTQ0NDAwLC05MT
-kxNDUyMjIsMTg4MTQ2MzQ5Miw0NjI4ODUzOTQsMjEyNTA3ODM5
-MSwtMzk5Mjc5MTIzLC02NTU3MDA4NF19
+eyJoaXN0b3J5IjpbLTEyNzA4MjI0MywtNjI2NTIxMDY2LDEyNT
+k5NDQ0MDAsLTkxOTE0NTIyMiwxODgxNDYzNDkyLDQ2Mjg4NTM5
+NCwyMTI1MDc4MzkxLC0zOTkyNzkxMjMsLTY1NTcwMDg0XX0=
 -->
