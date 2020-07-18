@@ -10,6 +10,7 @@ To better model structural variants of 3D shapes through learning a part-aware g
 ## Methods
 - **Part generators**. K part generators for K predefined semantic labels.
 	- Each part generator is trained to generate a volume of a specific part from a random vector.
+	- 3D volumes with a resolution of 64x64x64
 	- VAE-GAN
 - **Part assembler**.
 ## Evaluation
@@ -20,6 +21,6 @@ To better model structural variants of 3D shapes through learning a part-aware g
 - Part generation in this paper means part category rather than part instance.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzNTg4NjM5LDIxMjUwNzgzOTEsLTM5OT
+eyJoaXN0b3J5IjpbNDYyODg1Mzk0LDIxMjUwNzgzOTEsLTM5OT
 I3OTEyMywtNjU1NzAwODRdfQ==
 -->
