@@ -9,7 +9,8 @@ To better model structural variants of 3D shapes through learning a part-aware g
 - A consensus about the "structure" of a shape is the combination of part composition and the relative positioning between parts.
 ## Methods
 - **Part generators**. K part generators for K predefined semantic labels.
-	- 
+	- Each part generator is trained to generate a volume of a specific part from a random vector.
+	- VAE-GAN
 - **Part assembler**.
 ## Evaluation
 
@@ -19,6 +20,6 @@ To better model structural variants of 3D shapes through learning a part-aware g
 - Part generation in this paper means part category rather than part instance.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUzNjIzOTA0LDIxMjUwNzgzOTEsLTM5OT
+eyJoaXN0b3J5IjpbOTQzNTg4NjM5LDIxMjUwNzgzOTEsLTM5OT
 I3OTEyMywtNjU1NzAwODRdfQ==
 -->
