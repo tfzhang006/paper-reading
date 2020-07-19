@@ -19,11 +19,11 @@
 - 2D. Projected COSEG
 - 3D. ShapeNet
 ## Conclusion
-
+- Novel shapes are generated via inference over random samples taken from the latent spaces of shape parts and part compositions.
 ## Notes
-
+- It does not allow changes to part structures or feature transfers between different part classes.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjA4MTA2MzAsLTUxMDYxNTA1Niw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbODYxNjkyMDcwLC0xMDIwODEwNjMwLC01MT
+A2MTUwNTYsNzMwOTk4MTE2XX0=
 -->
