@@ -10,7 +10,7 @@
 - The proposed CompoNet is applied both on 2D and 3D.
 - Part synthesis unit.
 	- Training an individual VAE for each semantic part.
-	- T
+	- The encoders are fixed during the training of part composition unit.
 - Parts composition unit
 ## Evaluation
 
@@ -20,5 +20,6 @@
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDYxNTA1Niw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNTYxMzMxNDI0LC01MTA2MTUwNTYsNzMwOT
+k4MTE2XX0=
 -->
