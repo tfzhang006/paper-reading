@@ -7,9 +7,10 @@
 ## Background and Problems
 - Existing generative models are always trapped or bounded by the empirical distribution of the observed data.
 ## Methods
-- This
+- The proposed CompoNet is applied both on 2D and 3D.
 - Part synthesis unit.
-	- 
+	- Training an individual VAE for each semantic part.
+	- T
 - Parts composition unit
 ## Evaluation
 
@@ -19,5 +20,5 @@
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1NjQ0MjM5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTUxMDYxNTA1Niw3MzA5OTgxMTZdfQ==
 -->
