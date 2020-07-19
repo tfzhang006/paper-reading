@@ -3,7 +3,7 @@
 ## Summary
 
 ## Research Objective
-- To assemble 3D shapes conditioned on a given set of part geometry with variable number of parts without knowledge about semantic
+- To assemble 3D shapes conditioned on a given set of part geometry with variable number of parts. Moreover, knowledge about semantic
 ## Background and Problems
 
 ## Methods
@@ -16,5 +16,5 @@
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjM3MTg2MCwtMTI0NjgzNjU0OV19
+eyJoaXN0b3J5IjpbLTE3Mjc0NTQ1MywtMTI0NjgzNjU0OV19
 -->
