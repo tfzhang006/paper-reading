@@ -23,12 +23,12 @@ The proposed CompoNet learns to synthesize shapes that can be represented as a c
 ## Notes
 - It does not allow changes to part structures or feature transfers between different part classes.
 - This model uses a fixed number of semantic parts. For a missing part, they use null vector.
-- Similar to PAGENet
+- Similar to PAGENet.
 - [CompoNet](https://github.com/nschor/CompoNet)
 ## References
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODk3NjEyOSw4NjE2OTIwNzAsLTEwMj
+eyJoaXN0b3J5IjpbLTU3MzY5Mjc3Myw4NjE2OTIwNzAsLTEwMj
 A4MTA2MzAsLTUxMDYxNTA1Niw3MzA5OTgxMTZdfQ==
 -->
