@@ -12,8 +12,10 @@ This paper propose to use a dynamic graph learning framework that predicts a 6-D
 	- Encoding each part geometry as a node.
 	- Alternatively updating the edge and node features.
 - Dynamic relation reasoning module
-	- Learning to reason a directed edge-wise weight scalar to indicate the significance of the relation. Then, the node feature can be updated via multiplying the wei
+	- Learning to reason a directed edge-wise weight scalar to indicate the significance of the relation. Then, the node feature can be updated via multiplying the weight scalar and edge attribute.
 - Dynamic part aggregation module
+	- A dense node set including all the part nodes. A sparse node set crea
+	- Alternatively updating the relation graph between the dense and sparse node sets.
 ## Evaluation
 
 ## Conclusion
@@ -22,6 +24,6 @@ This paper propose to use a dynamic graph learning framework that predicts a 6-D
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTUzMjg1MCwxODA1MzA0NDksLTEyND
-Y4MzY1NDldfQ==
+eyJoaXN0b3J5IjpbLTE2MzYzMDI3NzcsMTgwNTMwNDQ5LC0xMj
+Q2ODM2NTQ5XX0=
 -->
