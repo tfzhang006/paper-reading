@@ -16,6 +16,8 @@ This paper propose to use a dynamic graph learning framework that predicts a 6-D
 - Dynamic part aggregation module
 	- A dense node set including all the part nodes. A sparse node set is created by aggregating all the geometrically-equivalent nodes into a single node via max-pooling.
 	- Alternatively updating the relation graph between the dense and sparse node sets. 
+- Min-of-N loss to balance the assembly quality and diversity. The MoN loss encourages at least one of the predictions to be close to the ground truth data
+- The loss includes 
 ## Evaluation
 
 ## Conclusion
@@ -24,6 +26,6 @@ This paper propose to use a dynamic graph learning framework that predicts a 6-D
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzEzOTE3OTgsMTgwNTMwNDQ5LC0xMj
-Q2ODM2NTQ5XX0=
+eyJoaXN0b3J5IjpbMzk5OTIzODcwLDE4MDUzMDQ0OSwtMTI0Nj
+gzNjU0OV19
 -->
