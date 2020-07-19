@@ -1,7 +1,7 @@
 # Generative 3D Part Assembly via Dynamic Graph Learning
 
 ## Summary
-This paper propose to 
+This paper propose to use a dynamic graph learning framework that predicts a 6-DoF part pose for each input part point cloud via forming a dynamically varying part graph and iteratively reasoning over the part poses and ther
 ## Research Objective
 - To assemble 3D shapes conditioned on a given set of part geometry with variable number of parts. Moreover, the model knows little semantic knowledge on the input parts.
 ## Background and Problems
@@ -17,5 +17,5 @@ This paper propose to
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODYzMjE2NSwtMTI0NjgzNjU0OV19
+eyJoaXN0b3J5IjpbMTgxMzU1Mjc1OCwtMTI0NjgzNjU0OV19
 -->
