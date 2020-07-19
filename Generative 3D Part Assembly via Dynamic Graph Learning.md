@@ -9,6 +9,9 @@ This paper propose to use a dynamic graph learning framework that predicts a 6-D
 - Existing methods always assume certain part priors.
 ## Methods
 - Iterative GNN backbone
+	- 
+- Dynamic relation reasoning module
+- Dynamic part aggregation module
 ## Evaluation
 
 ## Conclusion
@@ -17,5 +20,5 @@ This paper propose to use a dynamic graph learning framework that predicts a 6-D
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4MDc2MTI0LC0xMjQ2ODM2NTQ5XX0=
+eyJoaXN0b3J5IjpbLTUyNzQ1NjAyLC0xMjQ2ODM2NTQ5XX0=
 -->
