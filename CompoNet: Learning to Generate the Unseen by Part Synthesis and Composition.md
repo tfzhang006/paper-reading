@@ -1,7 +1,7 @@
 # CompoNet: Learning to Generate the Unseen by Part Synthesis and Composition
 
 ## Summary
-
+The proposed CompoNet learns to synthesize shapes that can be 
 ## Research Objective
 - How to enable a generative model to go beyond the observed observed samples and learn to generate "unseen".
 ## Background and Problems
@@ -25,6 +25,6 @@
 - This model uses a fixed number of semantic parts. For a missing part, they use null vector.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODM3NTQyNzksODYxNjkyMDcwLC0xMD
-IwODEwNjMwLC01MTA2MTUwNTYsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTU2NDUzMTIwMSw4NjE2OTIwNzAsLTEwMj
+A4MTA2MzAsLTUxMDYxNTA1Niw3MzA5OTgxMTZdfQ==
 -->
