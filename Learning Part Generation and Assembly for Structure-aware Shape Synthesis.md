@@ -1,7 +1,7 @@
 # Learning Part Generation and Assembly for Structure-aware Shape Synthesis
 
 ## Summary
-This paper proposes a part-aware deep generative network which delegates the learning of part composition and part placement into separate networks.
+This paper proposes a part-aware deep generative network, PAGENet. which delegates the learning of part composition and part placement into separate networks.
 ## Research Objective
 To better model structural variants of 3D shapes through learning a part-aware generative network.
 ## Background and Problems
@@ -30,8 +30,8 @@ To better model structural variants of 3D shapes through learning a part-aware g
 - The part generator and part assembler are not trained jointly.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2Nzc2ODI4NCwtMTI3MDgyMjQzLC02Mj
-Y1MjEwNjYsMTI1OTk0NDQwMCwtOTE5MTQ1MjIyLDE4ODE0NjM0
-OTIsNDYyODg1Mzk0LDIxMjUwNzgzOTEsLTM5OTI3OTEyMywtNj
-U1NzAwODRdfQ==
+eyJoaXN0b3J5IjpbLTcwMDkwNTEwNCwxMDY3NzY4Mjg0LC0xMj
+cwODIyNDMsLTYyNjUyMTA2NiwxMjU5OTQ0NDAwLC05MTkxNDUy
+MjIsMTg4MTQ2MzQ5Miw0NjI4ODUzOTQsMjEyNTA3ODM5MSwtMz
+k5Mjc5MTIzLC02NTU3MDA4NF19
 -->
