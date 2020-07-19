@@ -22,8 +22,9 @@
 - Novel shapes are generated via inference over random samples taken from the latent spaces of shape parts and part compositions.
 ## Notes
 - It does not allow changes to part structures or feature transfers between different part classes.
+- This model uses a fixed number of semantic parts. For a missing part, they use null vector.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxNjkyMDcwLC0xMDIwODEwNjMwLC01MT
-A2MTUwNTYsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE1ODM3NTQyNzksODYxNjkyMDcwLC0xMD
+IwODEwNjMwLC01MTA2MTUwNTYsNzMwOTk4MTE2XX0=
 -->
