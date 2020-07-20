@@ -14,8 +14,8 @@ This paper proposes a sequence-to-sequence autoencoder which encodes a sequence 
 
 ## Notes
 - Why does this method adopt a seq2seq model for shape generation?
-	- They regard the assembly sequence as a “sentence” which organizes and describes the parts constituting a 3D shape. 
+	- They regard the assembly sequence as a “sentence” which organizes and describes the parts constituting a 3D shape. A sentence is both a linear string of words and a hierarchical structure with phrases nested in phrases. Now that representing a shape in a hierarchical structure has be explored by many works, .
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNDg0NDYxMCw4NDc1MDY4N119
+eyJoaXN0b3J5IjpbLTMzNzY2NzY3OSw4NDc1MDY4N119
 -->
