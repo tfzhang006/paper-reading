@@ -17,15 +17,16 @@ This paper propose to use a dynamic graph learning framework that predicts a 6-D
 	- A dense node set including all the part nodes. A sparse node set is created by aggregating all the geometrically-equivalent nodes into a single node via max-pooling.
 	- Alternatively updating the relation graph between the dense and sparse node sets. 
 - Min-of-N loss to balance the assembly quality and diversity. The MoN loss encourages at least one of the predictions to be close to the ground truth data
-- The loss includes 
+- The loss includes L2 loss of translation and Chamfer distance of rotation.
 ## Evaluation
-
+- PartNet. Chairs, tables and lamps.
 ## Conclusion
 
 ## Notes
-
+- The design lacks physical constraints.
+- Provided the part geometry, the model only allows structural diversity to be modeled.
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5OTIzODcwLDE4MDUzMDQ0OSwtMTI0Nj
+eyJoaXN0b3J5IjpbNTkyOTgxNTY1LDE4MDUzMDQ0OSwtMTI0Nj
 gzNjU0OV19
 -->
