@@ -7,6 +7,7 @@
 ## Background and Problems
 
 ## Methods
+- Given a set 
 - Two-branch autoencoder
 	- The geometry branch accepts a series of k voxel maps as input and outputs k 512D features. 
 	- The structure branch takes in K=k(k-1)/2 pairs of bounding boxes and produces K 512D feature.
@@ -17,12 +18,13 @@
 	- The k 512D geometry features and K 512D structural features are fused into a single 512D feature separately through two different GRUs. They are fed into the third GRU with additional part mask to produce a new feature and then to yield mean and standard deviation of a Gaussian distribution.
 	- The decoder GRU transform latent code back into voxel maps and k bounding boxes for all parts.
 ## Evaluation
-
+- Shape generation
+- Geometry-structure mapping
 ## Conclusion
 
 ## Notes
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNDg1NDExMSwyMDY0MDY1Mjg5XX0=
+eyJoaXN0b3J5IjpbLTE2MjQwMjA5NDMsMjA2NDA2NTI4OV19
 -->
