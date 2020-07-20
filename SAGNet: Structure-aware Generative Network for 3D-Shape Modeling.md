@@ -14,7 +14,8 @@
 - Attention component
 	- The geometry and structure information is exchanged between two branches. Attention here acts as a weight for summation.
 - 2-way VAE
-	- The k 512D geometry features and K 512D structural features are fused into a single 512D feature separately through two different GRUs. 
+	- The k 512D geometry features and K 512D structural features are fused into a single 512D feature separately through two different GRUs. They are fed into the third GRU with additional part mask to produce a new feature and then to yield mean and standard deviation of a Gaussian distribution.
+	- The decoder GRU transform latent code  voxel maps
 ## Evaluation
 
 ## Conclusion
@@ -23,5 +24,5 @@
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDQwNTMxOSwyMDY0MDY1Mjg5XX0=
+eyJoaXN0b3J5IjpbLTkzODEwNDU1LDIwNjQwNjUyODldfQ==
 -->
