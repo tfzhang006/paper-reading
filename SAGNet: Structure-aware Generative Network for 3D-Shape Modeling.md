@@ -5,7 +5,7 @@ Given a set of segmented objects of a certain class, the geometry of their parts
 ## Research Objective
 
 ## Background and Problems
-
+- Structure and geometry are often interdependent, exhibiting complex relations and dependencies that are hard to model directly.
 ## Methods
 - Two-branch autoencoder
 	- The geometry branch accepts a series of k voxel maps as input and outputs k 512D features. 
@@ -28,5 +28,5 @@ Given a set of segmented objects of a certain class, the geometry of their parts
 - [SAGNet](https://github.com/zhijieW94/SAGNet)
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQyMzM0NTIsMjA2NDA2NTI4OV19
+eyJoaXN0b3J5IjpbLTY0NzM2MjY0MCwyMDY0MDY1Mjg5XX0=
 -->
