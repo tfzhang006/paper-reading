@@ -23,9 +23,10 @@ Given a set of segmented objects of a certain class, the geometry of their parts
 
 ## Notes
 - The model is trained on a set of segmented and consistently oriented shapes.
-- A shape is represented by k voxel maps and K pair of axis-aligned bounding boxes where each pair contains 2x6 coordinates(three for center of  ). 
+- A shape is represented by k voxel maps and K pair of axis-aligned bounding boxes where each pair contains 2x6 coordinates(three for center of a box and three for its length, width and height).
+- Missing parts are represented using zeros. 
 - [SAGNet](https://github.com/zhijieW94/SAGNet)
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzOTIwODcwNywyMDY0MDY1Mjg5XX0=
+eyJoaXN0b3J5IjpbLTIwNjQyMzM0NTIsMjA2NDA2NTI4OV19
 -->
