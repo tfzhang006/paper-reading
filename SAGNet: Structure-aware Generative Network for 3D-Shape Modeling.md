@@ -14,7 +14,7 @@
 - Attention component
 	- The geometry and structure information is exchanged between two branches. Attention here acts as a weight for summation.
 - 2-way VAE
-	- The k 512D geometry features and K 512D structural f are fused into 
+	- The k 512D geometry features and K 512D structural features are fused into a single 512D feature separately through two different GRUs. 
 ## Evaluation
 
 ## Conclusion
@@ -23,5 +23,5 @@
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDM1NTkwNDYsMjA2NDA2NTI4OV19
+eyJoaXN0b3J5IjpbMTM3NDQwNTMxOSwyMDY0MDY1Mjg5XX0=
 -->
