@@ -1,13 +1,12 @@
 # SAGNet: Structure-aware Generative Network for 3D-Shape Modeling
 
 ## Summary
-
+Given a set of segmented objects of a certain class, the geometry of their parts and the pairwise relationships between them (the structure) are jointly learned and embedded in a latent space by an autoencoder. 
 ## Research Objective
 
 ## Background and Problems
 
 ## Methods
-- Given a set 
 - Two-branch autoencoder
 	- The geometry branch accepts a series of k voxel maps as input and outputs k 512D features. 
 	- The structure branch takes in K=k(k-1)/2 pairs of bounding boxes and produces K 512D feature.
@@ -23,8 +22,10 @@
 ## Conclusion
 
 ## Notes
-
+- The model is trained on a set of segmented and consistently oriented shapes.
+- A shape is represeneted 
+- [SAGNet](https://github.com/zhijieW94/SAGNet)
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQwMjA5NDMsMjA2NDA2NTI4OV19
+eyJoaXN0b3J5IjpbLTczMjQ1NjEyMSwyMDY0MDY1Mjg5XX0=
 -->
