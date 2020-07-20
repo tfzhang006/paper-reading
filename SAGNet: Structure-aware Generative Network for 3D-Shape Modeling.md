@@ -3,7 +3,7 @@
 ## Summary
 Given a set of segmented objects of a certain class, the geometry of their parts and the pairwise relationships between them (the structure) are jointly learned and embedded in a latent space by an autoencoder. 
 ## Research Objective
-A novel architecture for joint ana 
+A novel architecture for joint analysis of geometry and structure information. 
 ## Background and Problems
 - Structure and geometry are often interdependent, exhibiting complex relations and dependencies that are hard to model directly.
 ## Methods
@@ -20,13 +20,14 @@ A novel architecture for joint ana
 - Shape generation
 - Geometry-structure mapping
 ## Conclusion
-
+We show that our generative network generates plausible structure-aware shapes that adhere to the characteristics of the learned class. We also demonstrate that our approach sup- ports inferring the geometry from structure and vise-versa.
 ## Notes
 - The model is trained on a set of segmented and consistently oriented shapes.
 - A shape is represented by k voxel maps and K pair of axis-aligned bounding boxes where each pair contains 2x6 coordinates(three for center of a box and three for its length, width and height).
 - Missing parts are represented using zeros. 
+- The ordering of the shape parts within the same class is consistent.
 - [SAGNet](https://github.com/zhijieW94/SAGNet)
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUzNzIwNTUsMjA2NDA2NTI4OV19
+eyJoaXN0b3J5IjpbODg5NTU3NzQ4LDIwNjQwNjUyODldfQ==
 -->
