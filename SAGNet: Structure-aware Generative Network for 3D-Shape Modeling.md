@@ -12,8 +12,9 @@
 	- The structure branch takes in K=k(k-1)/2 pairs of bounding boxes and produces K 512D feature.
 	- Then the features are fed into two different GRUs.
 - Attention component
-	- The geometry and structure information is exchanged between two branches. Attention here acts as a weight
+	- The geometry and structure information is exchanged between two branches. Attention here acts as a weight for summation.
 - 2-way VAE
+	- The k 512D geometry features and K 512D structural f are fused into 
 ## Evaluation
 
 ## Conclusion
@@ -22,5 +23,5 @@
 
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTA5OTk5NjIsMjA2NDA2NTI4OV19
+eyJoaXN0b3J5IjpbLTE0NDM1NTkwNDYsMjA2NDA2NTI4OV19
 -->
