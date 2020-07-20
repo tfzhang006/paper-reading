@@ -3,7 +3,7 @@
 ## Summary
 Given a set of segmented objects of a certain class, the geometry of their parts and the pairwise relationships between them (the structure) are jointly learned and embedded in a latent space by an autoencoder. 
 ## Research Objective
-
+A novel architecture for joint ana 
 ## Background and Problems
 - Structure and geometry are often interdependent, exhibiting complex relations and dependencies that are hard to model directly.
 ## Methods
@@ -28,5 +28,5 @@ Given a set of segmented objects of a certain class, the geometry of their parts
 - [SAGNet](https://github.com/zhijieW94/SAGNet)
 ## References
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzM2MjY0MCwyMDY0MDY1Mjg5XX0=
+eyJoaXN0b3J5IjpbMjUzNzIwNTUsMjA2NDA2NTI4OV19
 -->
